@@ -5,8 +5,6 @@ module Language.JavaScript.Process.Minify
       minifyJS
     ) where
 
-import Control.Applicative ((<$>))
-
 import Language.JavaScript.Parser.AST
 import Language.JavaScript.Parser.SrcLocation
 import Language.JavaScript.Parser.Token
