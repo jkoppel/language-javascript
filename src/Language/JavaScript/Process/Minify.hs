@@ -5,9 +5,7 @@ module Language.JavaScript.Process.Minify
       minifyJS
     ) where
 
-#if ! MIN_VERSION_base(4,13,0)
 import Control.Applicative ((<$>))
-#endif
 
 import Language.JavaScript.Parser.AST
 import Language.JavaScript.Parser.SrcLocation
